@@ -1,0 +1,95 @@
+// count the red and blue box css
+.square-box-section{
+	.show-states{
+		h2{
+			text-align: center;
+	 		font:600 24px/120% "Lato", sans-serif;
+	 		color: #006c77;
+	 		span{
+	 			display: inline-block;
+	 			padding: 0 20px;
+	 			#Red{
+	 				color: red;
+	 			}
+	 			#Blue{
+	 				color: blue;
+	 			}
+	 		}
+		}
+	}
+	.square-shape{
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+		float: left;
+		margin:10px;
+		border:3px solid #d7d7d7;
+		transition: all 0.3s ease;
+		cursor: pointer;
+		&:hover{
+			background-color: blue;	
+		}
+		&.active-blue{
+			background-color: blue;
+		}
+		&.active-red{
+			background-color: red;
+		}
+	}	
+}
+
+
+// weather report css
+header{
+	background:#ca387d; 
+	padding: 20px 0;
+	h1{
+		color: #fff;
+		font:600 32px/120% "Lato", sans-serif;
+		text-align: center;
+		margin:0;
+	}
+}
+.weather-report-section {
+  background-color: #f8f8f8;
+ 	.map-wrapper{
+	 	padding: 30px 0;
+	 	h3{
+	 		text-align: center;
+	 		font:600 18px/120% "Lato", sans-serif;
+	 		color: #006c77;
+	 		#CurLoc{
+	 			margin-left: 30px;
+	 			color: green;
+	 		}
+	 	}
+	 	#CurrrentLocationMap{
+	 		margin: 0 auto;
+	 	}
+ 	  	h2{
+		  	text-align: center;
+		  	color: #e6932e;
+		  	font:600 24px/120% "Lato", sans-serif;
+	  	}
+	 }
+	 .widget-wrapper{
+	 	padding: 30px 0;
+	 	h2{
+		  	text-align: center;
+		  	color: #e6932e;
+		  	font:600 24px/120% "Lato", sans-serif;
+	  	}
+	 	#openweathermap-widget-11{
+	 		.widget-left{
+	 			margin: 0 auto;
+	 		}
+	 		.weather-left-card__number {
+		    	font: 600 30px/1 Oswald,Arial,sans-serif;
+			}
+	 		.weather-left-card__degree {
+			    font: 700 30px/1 Oswald,Arial,sans-serif;
+		        letter-spacing: 0.5px;
+			}
+	 	}
+	 }
+}

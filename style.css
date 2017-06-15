@@ -1,0 +1,87 @@
+.square-box-section .show-states h2 {
+  text-align: center;
+  font: 600 24px/120% "Lato", sans-serif;
+  color: #006c77;
+}
+.square-box-section .show-states h2 span {
+  display: inline-block;
+  padding: 0 20px;
+}
+.square-box-section .show-states h2 span #Red {
+  color: red;
+}
+.square-box-section .show-states h2 span #Blue {
+  color: blue;
+}
+.square-box-section .square-shape {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  border: 3px solid #d7d7d7;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.square-box-section .square-shape:hover {
+  background-color: blue;
+}
+.square-box-section .square-shape.active-blue {
+  background-color: blue;
+}
+.square-box-section .square-shape.active-red {
+  background-color: red;
+}
+
+header {
+  background: #ca387d;
+  padding: 20px 0;
+}
+header h1 {
+  color: #fff;
+  font: 600 32px/120% "Lato", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.weather-report-section {
+  background-color: #f8f8f8;
+}
+.weather-report-section .map-wrapper {
+  padding: 30px 0;
+}
+.weather-report-section .map-wrapper h3 {
+  text-align: center;
+  font: 600 18px/120% "Lato", sans-serif;
+  color: #006c77;
+}
+.weather-report-section .map-wrapper h3 #CurLoc {
+  margin-left: 30px;
+  color: green;
+}
+.weather-report-section .map-wrapper #CurrrentLocationMap {
+  margin: 0 auto;
+}
+.weather-report-section .map-wrapper h2 {
+  text-align: center;
+  color: #e6932e;
+  font: 600 24px/120% "Lato", sans-serif;
+}
+.weather-report-section .widget-wrapper {
+  padding: 30px 0;
+}
+.weather-report-section .widget-wrapper h2 {
+  text-align: center;
+  color: #e6932e;
+  font: 600 24px/120% "Lato", sans-serif;
+}
+.weather-report-section .widget-wrapper #openweathermap-widget-11 .widget-left {
+  margin: 0 auto;
+}
+.weather-report-section .widget-wrapper #openweathermap-widget-11 .weather-left-card__number {
+  font: 600 30px/1 Oswald,Arial,sans-serif;
+}
+.weather-report-section .widget-wrapper #openweathermap-widget-11 .weather-left-card__degree {
+  font: 700 30px/1 Oswald,Arial,sans-serif;
+  letter-spacing: 0.5px;
+}
